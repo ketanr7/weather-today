@@ -1,0 +1,23 @@
+/* .card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+} */
+
+.card-list {
+  padding: 5%;
+  display: flex;
+  /* flex-direction: column;  */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 10px) and (max-width: 991.98px) {
+  .card-list {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

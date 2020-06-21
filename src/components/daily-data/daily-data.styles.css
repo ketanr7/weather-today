@@ -1,0 +1,80 @@
+.dailycard-container {
+  /* //width: 50%; */
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  background-color: #fff;
+  box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.11);
+
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outer-div {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.daily-city-div {
+  text-align: center;
+}
+
+.daily-city-div h2 {
+  font-size: 70px;
+  margin: 0px;
+}
+.daily-city-div h4 {
+  font-size: 30px;
+  margin: 15px;
+}
+.daily-info-div p {
+  font-size: 15px !important;
+}
+.daily-info-div h5 {
+  font-size: 16px !important;
+}
+.daily-img-div p {
+  font-size: 17px !important;
+  font-weight: bold;
+}
+.daily-img-div img {
+  width: 70px;
+  height: 70px;
+}
+
+@media (min-width: 10px) and (max-width: 991.98px) {
+  .daily-city-div h2 {
+    font-size: 40px;
+    margin: 0px;
+  }
+  .daily-city-div h4 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .daily-info-div p {
+    font-size: 12px !important;
+  }
+  .daily-info-div h5 {
+    font-size: 14px !important;
+  }
+  .daily-img-div p {
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+  .daily-img-div img {
+    width: 40px;
+    height: 40px;
+  }
+  .dailycard-container {
+    width: 85%;
+  }
+}
